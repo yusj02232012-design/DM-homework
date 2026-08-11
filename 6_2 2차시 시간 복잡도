@@ -1,0 +1,27 @@
+# code
+1. concept
+import sys
+input = sys.stdin.readline
+
+N = int(input())
+total = 0
+
+for i in range(N):
+    val = int(input())
+    total += val
+    
+print(total)
+
+2. problem 1
+import sys
+input = sys.stdin.readline
+
+N = int(input())
+max = 0
+
+for i in range(N):
+    val = int(input())
+    if val > max:
+        max = val
+
+print(max)
